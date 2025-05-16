@@ -4,13 +4,10 @@ using WireMock.RequestBuilders;
 using WireMock.ResponseBuilders;
 using WireMock.Server;
 using MAUI_Sample.Mock;
-using WireMock.Models;
-using WireMock.Settings;
 using IResponseProvider = WireMock.ResponseProviders.IResponseProvider;
 using TaskStatus = MAUI_Sample.Models.TaskStatus;
 using TaskInput = MAUI_Sample.Models.TaskInput;
 using WireMock;
-using GraphQL;
 
 namespace MAUI_Sample.Services
 {
