@@ -5,6 +5,8 @@
         public AppShell()
         {
             InitializeComponent();
+
+            Routing.RegisterRoute(nameof(Views.TaskDetailPage), typeof(Views.TaskDetailPage));
         }
     }
 }
